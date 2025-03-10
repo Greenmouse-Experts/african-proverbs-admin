@@ -1,6 +1,7 @@
 [build]
-  command = "next build && next export"
+  command = "NODE_VERSION=18 npm install && npm run build"
   publish = "out"
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NODE_VERSION = "18"
