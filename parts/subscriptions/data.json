@@ -1,0 +1,67 @@
+{
+  "countries": [
+    {
+      "id": "h~oO6NGpdVre",
+      "code": "AF",
+      "name": "Raul Vernon",
+      "startDate": "21-09-2021",
+      "endDate": "21-09-2023",
+      "subscription": "Platinum",
+      "hasExpired": false
+    },
+    {
+      "id": "h~KMDyxMbnjp",
+      "code": "AL",
+      "name": "Mendel Jorel",
+      "startDate": "30-09-2022",
+      "endDate": "30-09-2023",
+      "subscription": "Gold",
+      "hasExpired": true
+    },
+    {
+      "id": "h~WDvdaLN20l",
+      "code": "DZ",
+      "name": "Tella Kosoko",
+      "startDate": "01-09-2023",
+      "endDate": "01-09-2025",
+      "subscription": "Gold",
+      "hasExpired": false
+    },
+    {
+      "id": "h~xpqd3DyvPK",
+      "code": "AD",
+      "name": "Jethro Venice",
+      "startDate": "10-12-2020",
+      "endDate": "10-12-2021",
+      "subscription": "Platinum",
+      "hasExpired": true
+    },
+    {
+      "id": "h~J1GN51NXBp",
+      "code": "AO",
+      "name": "Ayeni Braidyn",
+      "startDate": "12-11-2022",
+      "endDate": "12-11-2023",
+      "subscription": "Gold",
+      "hasExpired": false
+    },
+    {
+      "id": "h~9j8N8WbYq1",
+      "code": "AG",
+      "name": "Mohammed Clay",
+      "startDate": "03-06-2022",
+      "endDate": "03-06-2023",
+      "subscription": "Silver",
+      "hasExpired": true
+    },
+    {
+      "id": "h~xpqd3xkyvP",
+      "code": "ZM",
+      "name": "Nolan Albert",
+      "startDate": "04-09-2023",
+      "endDate": "04-09-2024",
+      "subscription": "Silver",
+      "hasExpired": false
+    }
+  ]
+}
