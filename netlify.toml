@@ -1,6 +1,6 @@
 [build]
-  command = "NODE_VERSION=18 npm install --force && npm run build"
-   publish = ".next"
+  command = "NODE_VERSION=18 npm install --legacy-peer-deps && npm run build"
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
