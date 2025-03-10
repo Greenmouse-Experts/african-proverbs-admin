@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "engines": {
     "node": "18",
-    "npm": "8"  
+    "npm": "8"
   },
   "private": true,
   "scripts": {
@@ -58,6 +58,7 @@
     "webpack": "^4.44.0"
   },
   "devDependencies": {
+    "postcss": "^8.5.3",
     "react-to-print": "^2.14.15"
   }
 }
