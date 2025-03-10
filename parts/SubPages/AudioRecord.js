@@ -7,8 +7,8 @@ import FormDialog from '@/components/widgets/Modal';
 import ProverbModal from '@/components/widgets/ProverbModal';
 import DialogContent from '@material-ui/core/DialogContent';
 import { makeStyles } from '@material-ui/core/styles';
-import AudioReactRecorder, { RecordState } from 'audio-react-recorder';
-import 'audio-react-recorder/dist/index.css';
+// import AudioReactRecorder, { RecordState } from 'audio-react-recorder';
+// import 'audio-react-recorder/dist/index.css';
 import { addProverbAudioRecord, DeleteProverbAudioRecord } from "../../store/actions/proverbActions"
 import { useForm, Controller } from "react-hook-form";
 import { getAccessToken } from '../../utils/utilities';
@@ -75,49 +75,49 @@ const AudioRecord = ({ user, proverb }) => {
         setOpen(false);
         setCounter(0);
     };
-    const start = () => {
-        try {
-            if (recordState === RecordState.PAUSE) {
-                // If resuming from pause, use the pausedCounter as the starting point
-                setCounter(pausedCounter);
-            } else {
-                // If starting from scratch, reset the counter
-                setCounter(0);
-            }
+    // const start = () => {
+    //     try {
+    //         if (recordState === RecordState.PAUSE) {
+    //             // If resuming from pause, use the pausedCounter as the starting point
+    //             setCounter(pausedCounter);
+    //         } else {
+    //             // If starting from scratch, reset the counter
+    //             setCounter(0);
+    //         }
 
-            setRecordState(RecordState.START);
-            setCounterActive(true);
-        } catch (error) {
-            console.error('Error starting recording:', error);
-            // Handle the error, for example, show an error message to the user
-        }
-    };
+    //         setRecordState(RecordState.START);
+    //         setCounterActive(true);
+    //     } catch (error) {
+    //         console.error('Error starting recording:', error);
+    //         // Handle the error, for example, show an error message to the user
+    //     }
+    // };
 
-    const pause = () => {
-        try {
-            setRecordState(RecordState?.PAUSE);
-            setCounterActive(false);
-            setPausedCounter(counter);
-        } catch (error) {
-            console.error('Error pausing recording:', error);
-            // Handle the error
-        }
-    };
+    // const pause = () => {
+    //     try {
+    //         setRecordState(RecordState?.PAUSE);
+    //         setCounterActive(false);
+    //         setPausedCounter(counter);
+    //     } catch (error) {
+    //         console.error('Error pausing recording:', error);
+    //         // Handle the error
+    //     }
+    // };
 
-    const stop = () => {
-        try {
-            if (recordState === RecordState?.START) {
-                setRecordState(RecordState?.STOP);
-                setCounterActive(false);
+    // const stop = () => {
+    //     try {
+    //         if (recordState === RecordState?.START) {
+    //             setRecordState(RecordState?.STOP);
+    //             setCounterActive(false);
 
-            } else {
-                console.warn('No active recording to stop.');
-            }
-        } catch (error) {
-            console.error('Error stopping recording:', error);
-            // Handle the error
-        }
-    };
+    //         } else {
+    //             console.warn('No active recording to stop.');
+    //         }
+    //     } catch (error) {
+    //         console.error('Error stopping recording:', error);
+    //         // Handle the error
+    //     }
+    // };
 
 
     const onStop = (data) => {
@@ -326,7 +326,7 @@ const AudioRecord = ({ user, proverb }) => {
                                     <br />
                                 </div>
                                 <div className=" col-md-12">
-                                    <AudioReactRecorder
+                                    {/* <AudioReactRecorder
                                         className="w-32"
                                         state={recordState}
                                         onStop={(data) => {
@@ -338,7 +338,7 @@ const AudioRecord = ({ user, proverb }) => {
                                         canvasHeight={100}
                                         foregroundColor="rgb(0,0,0)"
                                         backgroundColor="rgb(255, 255, 255)"
-                                    />
+                                    /> */}
 
                                     <div className="d-flex justify-content-between align-items-center mb-2">
                                         <audio

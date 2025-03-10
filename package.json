@@ -22,7 +22,6 @@
     "@mui/material": "^5.14.12",
     "@netlify/plugin-nextjs": "^5.10.0",
     "@zeit/next-css": "^1.0.1",
-    "audio-react-recorder": "^1.0.5",
     "axios": "^0.21.1",
     "chart.js": "^2.9.4",
     "doka": "^0.1.0",
