@@ -30,7 +30,7 @@
     "lodash": "^4.17.21",
     "material-ui-dropzone": "^3.5.0",
     "moment": "^2.29.1",
-    "next": "^11.1.4",
+    "next": "^13.5.8",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
     "next-redux-wrapper": "^6.0.2",
