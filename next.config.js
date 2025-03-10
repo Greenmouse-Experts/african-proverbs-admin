@@ -1,4 +1,8 @@
 const withCSS = require("@zeit/next-css");
+module.exports = {
+  exportTrailingSlash: true,
+  trailingSlash: true,
+};
 module.exports = withCSS({
   cssModules: true,
 });
