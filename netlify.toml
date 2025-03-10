@@ -1,6 +1,6 @@
 [build]
   command = "NODE_VERSION=18 npm install --legacy-peer-deps && npm run build"
-  publish = "out"
+   publish = ".next"
 
 [context.production.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
